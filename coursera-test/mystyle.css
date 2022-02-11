@@ -1,0 +1,145 @@
+
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+
+		}
+		.pagewrap{
+
+			padding: 1% 2%;
+			width: 1100px;
+		
+
+		}
+		header{
+			height: 100px;
+			padding: 0 15px;
+			text-align: center;
+			
+		}
+		h2{
+
+			width: 100px;
+			height: 30px;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			text-align: center;
+			float: right;
+			margin-top: -15px;
+			margin-right: -15px;
+		}
+		.content h2{
+			background-color: rgb(253, 159, 156);
+		}
+		.middle h2{
+			background-color: red;
+		}
+		.last h2{
+			background-color: rgb(199, 199, 71);
+		}
+		
+		p{
+			clear: both;
+
+		}
+
+
+		.content{
+			width: 300px;
+			float: left;
+			padding: 15px 15px;
+			margin: 5px 10px 10px 10px;
+			background-color: grey;
+
+
+		
+
+	
+		}
+		.middle{
+			width: 300px;
+			float: left;
+			padding: 15px 15px;
+			margin: 5px 10px 10px 10px;
+			background-color: grey;
+	
+
+
+		}
+		.last{
+			width: 300px;
+			float: left;
+			padding: 15px 15px;
+			margin: 5px 10px 10px 10px;
+			background-color: grey;
+
+		
+
+		}
+
+
+		/*---------for laptop screen---------*/
+
+		@media (min-width: 992px) and (max-width: 1500px){
+
+			header{
+				padding: 1% 4%;
+
+			}
+		}
+
+		/*---------for tab screen----------*/
+
+		@media (min-width: 768px) and (max-width: 991px){
+			.content{
+				width: 40%;
+				
+				
+			}
+			.middle{
+				width: 40%;
+				
+			
+			}
+			.last{
+				width: 85%;
+				float: left;
+			}
+
+
+			header{
+				margin-left: -15%;
+			}
+
+		}
+
+		/*------------for mobile screen---------*/
+
+		@media (max-width: 767px){
+			.content, .middle, .last{
+				width: 50%;
+				margin-left: 10%;
+
+			}
+	
+			header{
+				height: auto;
+				margin-left: -25%;
+			
+			
+			}
+			h1{
+				font-size: 2em;
+				padding-bottom: 5%;
+				
+			}
+		}
+		
+
+		.content, .middle, .last{
+			border: solid black 2px;
+
+		}
+	</style>
